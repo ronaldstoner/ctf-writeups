@@ -42,7 +42,7 @@ Commented out at the very bottom of the source code is the flag. On to the next 
 
 Challenge 3 related to a spreadsheet hosted on **Google Docs**, and some comments posted in a **Gist**.
 
- <iframe src="https://medium.com/media/5bec63506a35853c0a83422e33f15e18" frameborder=0></iframe>
+Gist: https://gist.github.com/richrichard/d6eb532db2899e5d36211d4b15d2e2fd#file-pd
 
 The spreadsheet contained some values related to “BitJawn” mining and while the spreadsheet itself seemed legitimate, the data contained did not.
 
@@ -54,7 +54,7 @@ After looking at the spreadsheet further it became apparent that the numbers und
 
 At this point the team decided to generate all column names, but when dealing with numbers like 53,082,687,204 (Cell 8 in Column HG) our code ran out of memory due to the large amount of entries that needed to be generated. A more optimized python script was found and used to generate a corresponding column name.
 
- <iframe src="https://medium.com/media/ce2fd290d1a933c4eb6fec2850028d21" frameborder=0></iframe>
+Script: https://gist.github.com/ronaldstoner/aaf65ec03a9b27cd74c186c1f9bba4de#file-excel-py
 
 We took each number from the spreadsheet and passed it through the script. This generated all the column names and revealed a message.
 
@@ -96,7 +96,7 @@ Now that we had all 4 flags, we needed to figure out what to do with them and ho
 
 So the flags needed to be **concatenated**, **hexed** (they already were), **reversed**, **base64 encoding/decoded**, and then reversed again per the instructions. **Python **was able to step in, and we were able to code a quick script to do the conversions.
 
- <iframe src="https://medium.com/media/e9816873a60a5dd09435cf894cc708a8" frameborder=0></iframe>
+Final script: https://gist.github.com/ronaldstoner/d159febdb67d8bf2b3fb7d47e2102ab8#file-decrypt-py
 
 Running the script gave us the output we needed — **“Most of the learning in use, is of no great use.”**
 
