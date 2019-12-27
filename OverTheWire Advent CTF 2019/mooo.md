@@ -28,7 +28,7 @@ We now know that the program is written in Perl, and we have more input fields t
 
 ![The key to the kingdom, and a great Perl escape](https://cdn-images-1.medium.com/max/2000/1*05BWHPgZVyOJBwHzs9AOSg.png)
 
-They noticed that some Perl scripts contained **EOF **(End of File) or **EOC** (I’m assuming End of Command), indicating that the Perl session was to exit after finishing it’s code processing. We tried to pass **EOC, **which seemed to work without reporting any errors. After that, we tried chaining commands with the linux **id** command to see if we had escaped Perl and reached a shell.
+They noticed that some Perl scripts contained **EOF **(End of File), while this one had **EOC** (I’m assuming End of Command, but it’s actually End of Cow), indicating that the code was to exit after finishing it’s code processing. This **EOC** command was also present in the custom cow template. We tried to pass **EOC, **which seemed to work without reporting any errors. After that, we tried chaining commands with the linux **id** command to see if we had escaped Perl and reached a shell.
 
 ![Cowsay failed, but have we?](https://cdn-images-1.medium.com/max/2000/1*ScxeYbnRqaSuGY2vh388EA.png)
 
