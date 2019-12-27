@@ -30,8 +30,6 @@ Browsing to these domain names using the **TOR Browser Bundle **found a webpage 
 
 On the website were a few clues — a **base64** encoding string, a link to a reversed hex string, and a number that was labeled **_botjawn**. Decoding most of these strings (which were prevalent throughout the challenges) resulted in various easter eggs, Rick Rolls, and a music video of The Dead Milkmen — a popular Philadelphia punk band.
 
- <iframe src="https://medium.com/media/98f4f4690b2826dbab796d1c17c6c086" frameborder=0></iframe>
-
 After burning through the false flags and various easter eggs in the challenge, we took a look at the source code for the website. While the code itself didn’t show much, there seemed to be a bunch of white space and returns at the bottom.
 
 ![That doesn’t look like source code!](https://cdn-images-1.medium.com/max/2000/1*sTRaMf_kMSpx7fd_U-jpJA.png)
