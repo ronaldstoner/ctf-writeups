@@ -1,6 +1,3 @@
-
-![Image by [Tieatie](https://dribbble.com/tieatie)](https://cdn-images-1.medium.com/max/2000/1*ST1-igWFDQUNsnX_RLu1Pg.png)
-
 ## CTFJawn 2017 @ BSides Philly Write Up
 
 Security BSides recently came to Philadelphia, and with it a host of fun hacker related activities. One of those was a brand new first time Capture The Flag challenge — **CTFJawn2017**.
