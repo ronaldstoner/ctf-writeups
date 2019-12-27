@@ -44,7 +44,7 @@ Programming this script to “fail early” as soon as it finds any value that e
 
 These techniques, combined with a descending 9 ->1 number order, help to trigger the failure conditions faster, and reduces magnitudes even further.
 
- <iframe src="https://medium.com/media/b6589a4741fd55d97a0040647ed6abf3" frameborder=0></iframe>
+Solve script: https://gist.github.com/ronaldstoner/958568e5aa52f5786c3178a359884256
 
 After running the script for some time, a final Sudoku solution that meets the list of requirements is found.
 
