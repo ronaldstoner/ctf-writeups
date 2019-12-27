@@ -57,7 +57,7 @@ The data in **xmm3** then gets XOR’d against a static address which contains h
 
 Taking both the cipher text and key allows us to perform an AES decryption which reveals the password we need — **MiLiT4RyGr4d3MbR**.
 
-https://gist.github.com/ronaldstoner/b9cb4330085e17f8dad1d723f732ee2c#file-solver-py
+<script src="https://gist.github.com/ronaldstoner/b9cb4330085e17f8dad1d723f732ee2c.js"></script>
 
 ![Running the script and decrypting the password](https://cdn-images-1.medium.com/max/2000/1*tTmrmNJ_i9xvRmkzxZ1iyg.png)
 
