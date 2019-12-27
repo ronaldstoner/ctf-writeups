@@ -1,2 +1,2 @@
 # ctf-writeups
-Write up guides for Capture The Flag (CTF) hacking challenges
+Guides and write ups for Capture The Flag (CTF) hacking challenges
