@@ -14,7 +14,7 @@ We are provided a remote service to connect to, as well as some source code on h
 
 ![The remote service](https://cdn-images-1.medium.com/max/2000/1*KJClFQt0PwzBRfs7Gx9dNA.png)
 
- <iframe src="https://medium.com/media/4bca5b5e2ef8b13cabac160466e94fa2" frameborder=0></iframe>
+Source code: https://gist.github.com/ronaldstoner/d008dce576b7ef13ed1726a7e10e570e
 
 The remote service (and reading the source code) shows us a generated textbook **RSA** public key, and a request for us to provide 3 signed messages and digital signatures in hex encoding. Generally during CTF competitions, RSA challenges come down to factoring an unknown private key in order to decode a message. This is due to the fact that textbook RSA does not contain any padding, and can be defeated using cryptography and algebra.
 
@@ -36,7 +36,7 @@ We were able to pass message 1 and message 2 by using the values **0 **and **1**
 
 But wait…we know the modulus (**n**), the exponent (**e**), and we can control the digital signature (**s**). Using this, we can figure out an appropriate message (**m**) that should pass verification from a set digital signature.
 
- <iframe src="https://medium.com/media/8124bc697af82fc36989f2492ca2cb2b" frameborder=0></iframe>
+Solve script: https://gist.github.com/ronaldstoner/2923a0314a62c56140053957c2194e5d
 
 Since this is an automated system, our message does not need to be human readable — it only needs to pass the signature verification check. Running the script above outputs a hex string that we can input as the message, and a digital signature of **0xf.**
 
