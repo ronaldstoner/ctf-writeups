@@ -3,7 +3,7 @@
 
 ![](https://cdn-images-1.medium.com/max/2000/1*a8k8cpExVuJ41SAJJjc4Eg.png)
 
-Back in 2016 the Cyber Command branch of the United States Army (ARCYBER) released a commercial that lead to an ARG for recruitment of hackers. A YouTube video ([https://www.youtube.com/watch?v=0LZnOorfS_Q)](https://www.youtube.com/watch?v=0LZnOorfS_Q) of the commercial showed the URL [http://recruitahacker.net/](http://recruitahacker.net/) in the console lines displayed in the video. Browsing to this URL opened up puzzles for those willing to test their skills (and possibly set themselves up for recruitment).
+Back in 2016, the Cyber Command branch of the United States Army (ARCYBER) released a commercial that lead to an ARG for recruitment of hackers. A YouTube video ([https://www.youtube.com/watch?v=0LZnOorfS_Q)](https://www.youtube.com/watch?v=0LZnOorfS_Q) of the commercial showed the URL [http://recruitahacker.net/](http://recruitahacker.net/) in the console lines displayed in the video. Browsing to this URL opened up puzzles for those willing to test their skills (and possibly set themselves up for recruitment).
 
 ![Easter eggs in the YouTube commercial](https://cdn-images-1.medium.com/max/2000/1*oJBL38ecnx10QJgKQ6Kezw.png)
 
@@ -27,7 +27,7 @@ Vigenère takes the concept of Caesar ciphers and sequences them using different
 
 Taking what we know from above we can programmatically start to solve the challenge. The coding language **Python** can be used to determine the shift values used, and even generate our own decryption keys and encrypted text if we’d like.
 
- <iframe src="https://medium.com/media/066926ae6d7c797f659db84ff41afbc7" frameborder=0></iframe>
+Script: https://gist.github.com/ronaldstoner/24f234a9b2f896e645ae885dd818ee95#file-ciphertext-py
 
 Running the code above generates a decryption key of **“lkvtrwu xaqd jwx fqv”**. Putting in this decryption key allows the text to be decrypted and now we have full control over the plain text and encryption key.
 
