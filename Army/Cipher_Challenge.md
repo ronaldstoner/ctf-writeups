@@ -38,6 +38,3 @@ As seen above the text did decrypt correctly using the key we found from the Pyt
 Side Note: Enumerating through this challenge found other URLs such as [http://recruitahacker.net/Home/XOREncryptionTest](http://recruitahacker.net/Home/XOREncryptionTest) and [http://recruitahacker.net/Home/VigenereTest](http://recruitahacker.net/Home/VigenereTest), which are used to encrypt and test plain text strings. I’m sure there are more hidden easter eggs on this site to be found and I look forward to any future updates and challenges.
 
 ![](https://cdn-images-1.medium.com/max/2000/1*5XoOFVhjjVaFFfX9v7T9Jg.png)
-
-*Editors Note: Put a [WEBGAP](https://webgap.io) between you and the malware with a [browser isolation technology](https://webgap.io/remote-browser-isolation-technology.html) or by leveraging a [remote browser service](https://webgap.io/remote-browser-service.html).*
-
