@@ -1,6 +1,4 @@
 
-![Brain Leaking by [Nick Staab](https://dribbble.com/staabo)](https://cdn-images-1.medium.com/max/2000/1*O-q3ViAmFpijo9G58YuRGg.gif)
-
 ## Brain_Gamez — A Forensic Challenge
 
 Back in October I created a forensic challenge called Brain_Gamez, which was hosted on the Hackmethod Monthly CTF site ([https://ctf.hackmethod.com](https://ctf.hackmethod.com/)). Brain_Gamez is a 32 KB JPG image file, which contains a mix of steganography and obfuscation techniques. It was up to the CTF hackers to figure out what to do with the image, and piece together a solution to find the final flag. What follows is the steps taken needed to solve the challenge.
